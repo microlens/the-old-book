@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
-        name: `The old book`,
+        name: `The Old Book`,
         socialMedia: [{}],
         location: `Vietnam`,
       },
