@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "the-old-book",
+  "description": "Vintage photos by Nhat Nguyen",
+  "version": "1.0.0",
+  "author": "Long Nhat Nguyen",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-emilia": "3.0.11",
+    "gatsby": "4.18.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
