@@ -18,5 +18,29 @@ module.exports = {
         location: `Vietnam`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The Old Book | Vintage photos by Nhat Nguyen`,
+        short_name: `The Old Book`,
+        description: `Vintage photos by Nhat Nguyen`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#3182ce`,
+        display: `standalone`,
+        icons: [
+          {
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
+      },
+    },
   ],
 }
