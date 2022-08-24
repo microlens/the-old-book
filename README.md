@@ -7,12 +7,8 @@ Minimalistic portfolio/photography site with masonry grid, page transitions and 
 ## Installation
 
 ```sh
-npm install
+npm install --legacy-peer-deps
 npm run develop
 ```
 
 The site is now running at `http://localhost:8000`!
-
-## License
-
-Licensed under the [MIT](LICENSE) license.

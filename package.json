@@ -4,7 +4,6 @@
   "description": "Vintage photos by Nhat Nguyen",
   "version": "1.0.0",
   "author": "Long Nhat Nguyen",
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
