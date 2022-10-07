@@ -15,6 +15,7 @@ module.exports = {
       options: {
         name: `The Old Book`,
         socialMedia: [{}],
+        showThemeAuthor: false,
         location: `Vietnam`,
       },
     },
