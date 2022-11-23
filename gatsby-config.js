@@ -9,6 +9,7 @@ module.exports = {
     siteImage: `/banner.jpg`,
     author: `@retro90s`,
   },
+  trailingSlash: `never`,
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
