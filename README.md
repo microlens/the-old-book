@@ -1,4 +1,4 @@
-# The Old Book | Vintage photos by Nhat Nguyen
+# The Old Book | Welcome Home
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b1c5ed7e-0e58-4625-af8b-195f18f418ab/deploy-status)](https://app.netlify.com/sites/the-old-book/deploys)
 
