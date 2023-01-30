@@ -1,4 +1,6 @@
-module.exports = {
+import type { GatsbyConfig, PluginRef } from "gatsby"
+
+const config: GatsbyConfig = {
   siteMetadata: {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
     siteTitle: `The Old Book`,
@@ -18,6 +20,12 @@ module.exports = {
         socialMedia: [{}],
         showThemeAuthor: false,
         location: `Vietnam`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/`,
       },
     },
     {
@@ -46,5 +54,7 @@ module.exports = {
         ],
       },
     },
-  ].filter(Boolean),
+  ].filter(Boolean) as Array<PluginRef>,
 }
+
+export default config
