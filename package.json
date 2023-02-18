@@ -2,7 +2,7 @@
   "private": true,
   "name": "@microlens/gatsby-starter-emilia",
   "description": "Minimalistic portfolio/photography site with masonry grid, page transitions and big images",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "author": "Long Nhat Nguyen",
   "scripts": {
     "build": "gatsby build",
