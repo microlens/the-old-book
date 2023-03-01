@@ -2,7 +2,6 @@ import type { GatsbyConfig, PluginRef } from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.ts
     siteTitle: `The Old Book`,
     siteTitleAlt: `The Old Book | Welcome Home`,
     siteHeadline: `The Old Book | Welcome Home`,

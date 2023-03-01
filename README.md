@@ -1,6 +1,6 @@
 # The Old Book | Welcome Home
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1c5ed7e-0e58-4625-af8b-195f18f418ab/deploy-status)](https://app.netlify.com/sites/the-old-book/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e57e0978-8dd7-4328-aeb1-cd2caeaaffe7/deploy-status)](https://app.netlify.com/sites/the-old-book/deploys)
 
 Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Using the Gatsby Theme [`@lekoarts/gatsby-theme-emilia`](https://github.com/LekoArts/gatsby-themes/tree/main/themes/gatsby-theme-emilia).
 
