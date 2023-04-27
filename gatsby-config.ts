@@ -7,9 +7,8 @@ const config: GatsbyConfig = {
     siteHeadline: `The Old Book | Welcome Home`,
     siteUrl: `https://the-old-book.netlify.app`,
     siteDescription: "Welcome Home",
-    siteImage: `/banner.jpg`,
+    siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
-    author: `@torn4dom4n`,
   },
   trailingSlash: `never`,
   plugins: [
