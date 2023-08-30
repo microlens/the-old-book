@@ -1,4 +1,4 @@
-import type { GatsbyConfig, PluginRef } from "gatsby"
+import type { GatsbyConfig, PluginRef } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -6,7 +6,7 @@ const config: GatsbyConfig = {
     siteTitleAlt: `The Old Book | Welcome Home`,
     siteHeadline: `The Old Book | Welcome Home`,
     siteUrl: `https://the-old-book.netlify.app`,
-    siteDescription: "Welcome Home",
+    siteDescription: 'Welcome Home',
     siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
   },
