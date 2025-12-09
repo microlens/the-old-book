@@ -2,21 +2,19 @@ import type { GatsbyConfig, PluginRef } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    siteTitle: `Gatsby Starter Emilia`,
-    siteTitleAlt: `Gatsby Starter Emilia | AREA44`,
-    siteHeadline: `Gatsby Starter Emilia | AREA44`,
-    siteUrl: `https://gatsby-starter-emilia.vercel.app`,
-    siteDescription:
-      'Minimalistic portfolio/photography site with masonry grid, page transitions and big images.',
+    siteTitle: `The Old Book`,
+    siteTitleAlt: `The Old Book | Welcome Home`,
+    siteHeadline: `The Old Book | Welcome Home`,
+    siteUrl: `https://the-old-book.netlify.app`,
+    siteDescription: 'Welcome Home',
     siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
-    author: `@torn4dom4n`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
-        name: `Gatsby Starter Emilia`,
+        name: `The Old Book`,
         socialMedia: [{}],
         showThemeAuthor: false,
         location: `Vietnam`,
@@ -31,9 +29,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Emilia | AREA44`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images.`,
+        name: `The Old Book | Welcome Home`,
+        short_name: `The Old Book`,
+        description: `Welcome Home`,
         start_url: `/`,
         background_color: `#fff`,
         display: `standalone`,
@@ -44,8 +42,8 @@ const config: GatsbyConfig = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/android-chrome-384x384.png`,
+            sizes: `384x384`,
             type: `image/png`,
           },
         ],
